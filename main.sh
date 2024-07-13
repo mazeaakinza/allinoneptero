@@ -19,7 +19,7 @@ request_license() {
 # Fungsi untuk memeriksa lisensi
 check_license() {
     LICENSE_KEY=$(cat "$LICENSE_FILE")
-    if [ "$LICENSE_KEY" == "DZ4KY" ]; then
+    if [ "$LICENSE_KEY" == "RAINXHECTA" ]; then
         return 0
     else
         echo "Lisensi mu ga valid ajg."
